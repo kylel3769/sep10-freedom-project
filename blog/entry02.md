@@ -1,8 +1,8 @@
 # Entry 2
-##### X/X/XX
+##### 11/27/23
 
 Text
 
-[Previous](entry01.md) | [Next](entry03.md)
+[Previous](entry01.md) | [Next](entry01.md)
 
 [Home](../README.md)
