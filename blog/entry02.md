@@ -4,6 +4,6 @@
 ## Projects
 
 
-[Previous](entry01.md) | [Next](entry01.md)
+[Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
