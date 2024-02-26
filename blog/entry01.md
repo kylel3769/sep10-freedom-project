@@ -1,4 +1,4 @@
-# Entry 1: Deciding on My Topic (Electrical engineering)
+# Entry 1: Deciding on My Topic (Software engineering)
 ##### 10/26/23
 
 ## Choosing the topic
