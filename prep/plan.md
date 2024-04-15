@@ -5,10 +5,10 @@
 * [Desktop](../images/website_wireframe.png)
 
 ## Colors
-* `#ABC123`
+* `#000000`
 
 ## Fonts
-* [Text](URL)
+* [Merriweather](https://fonts.googleapis.com/css2?family=Merriweather)
 
 ## Timeline
 
