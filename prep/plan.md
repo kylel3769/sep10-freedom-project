@@ -16,6 +16,14 @@
 
 * Task/Timeline
 
+Write the context paragraph
+
+Write the part A paragraph
+
+Write the part B paragraph
+
+ 
+Make the product in aframe
 ---
 
 #### Beyond MVP
