@@ -28,4 +28,5 @@ Make the product in aframe
 
 #### Beyond MVP
 
-* Task
+* Add extra images of the product
+* 
