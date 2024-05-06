@@ -10,6 +10,9 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10838,3 +10841,16 @@ section {
   padding-bottom: 9rem;
 }
 
+ai {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34%;
+}
+
+drawing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34%;
+}
