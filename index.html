@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -84,13 +85,23 @@
                     </div>
                 </div>
             </div>
+            <div class="aframe" >
+                <a-scene inspector keyboard-shortcuts screenshot xr-mode-ui device-orientation-permission-ui >
 
-            <picture>
+                    <canvas class="a-canvas a-grab-cursor" data-aframe-canvas="true" data-engine="three.js r158" width="611" height="627" style></canvas>
+                <a-box position="0 1.5 -4" rotation="0 45 0" color="#00C0CB" scale="1 1 1"></a-box>
+                 <a-box position="0 1.5 -4" rotation="0 45 0" color="#00aeb8" scale=".9 .9 .9" src=""></a-box>
+
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+                 <a-sky color="#ECECEC"></a-sky>
+               </a-scene>
+            </div>
+        <!--    <picture>
                 <source media="(min-width: 900px)" srcset="assets/images/ai_thing.jfif" class="ai">
                 <source media="(min-width: 480px)" srcset="assets/images/my_version_ai.png" class="drawing">
-                <img src="assets/images/my_version_ai.png" alt="don't look here, ur phone too small">
+                <img src="assets/images/my_version_ai.png" alt="don't look here, something went wrong">
             </picture>
-
+        -->
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">

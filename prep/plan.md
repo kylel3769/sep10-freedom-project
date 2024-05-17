@@ -21,12 +21,18 @@ Write the context paragraph
 Write the part A paragraph
 
 Write the part B paragraph
- 
+
 Make the product in aframe
 
 ---
 
 #### Beyond MVP
 
+* figure out how to center the ai picture.
+* make the product out of aframe
 * Add extra images of the product
-* 
+*
+*
+*
+*
+*
