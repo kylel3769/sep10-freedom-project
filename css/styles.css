@@ -1,9 +1,11 @@
 
 
- .aframe {
-padding-top: ;
-  }
-
+.aframe {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 82%;
+}
 
 :root {
   --bs-blue: #0d6efd;
