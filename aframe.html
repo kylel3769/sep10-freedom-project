@@ -14,6 +14,10 @@
             <a-asset-item id="ai_brain" src="/assets/images/sepfreedom.glb" ></a-asset-item>
         </a-assets>
             <a-entity gltf-model="#ai_brain"></a-entity>
+            <a-sky color="#ECECEC"></a-sky>
+            <a-entity id="rig" position="0 1 -2" rotation="-6 180 0">
+                <a-entity id="camera" camera look-controls wasd-controls="acceleration: 5"></a-entity>
+              </a-entity>
     </a-scene>
 <!--
     <a-scene>
