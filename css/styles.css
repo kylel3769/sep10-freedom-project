@@ -1,4 +1,7 @@
-
+.blender {
+  width: 50%;
+  max-height: 100px;
+} 
 
 .aframe-container {
   width: 50%; 
