@@ -1,8 +1,8 @@
 
 
 .aframe-container {
-  width: 400px; 
-  height: 300px;
+  width: 50%; 
+  height: 50%;
   border: 1px solid #ccc;
   display: none;
   position: relative;
