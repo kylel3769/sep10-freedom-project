@@ -85,12 +85,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6"></div>
-            <iframe src="aframe.html" class="aframe">
-
-
-            </iframe>
-        </div>
+            <button id="toggleButton">Toggle A-Frame Scene</button>
+            <div id="aframe-container">
+                <a-scene>
+                    <!-- Your A-Frame elements go here -->
+                    <a-box position="0 1.5 -4" rotation="0 45 0" color="#00C0CB" scale="1 1 1"></a-box>
+                    <a-box position="0 1.5 -4" rotation="0 45 0" color="#00aeb8" scale=".9 .9 .9" src=""></a-box>
+                    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+                    <a-sky color="#ECECEC"></a-sky>
+                </a-scene>
+            </div>
         <!--    <picture>
                 <source media="(min-width: 900px)" srcset="assets/images/ai_thing.jfif" class="ai">
                 <source media="(min-width: 480px)" srcset="assets/images/my_version_ai.png" class="drawing">

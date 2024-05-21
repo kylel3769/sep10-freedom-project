@@ -1,9 +1,9 @@
 
 
-.aframe {
-  margin: auto;
-  display: block;
-
+#aframe-container {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  display: none; /* Initially hide the A-Frame container */
 }
 
 :root {
@@ -375,18 +375,7 @@ select:disabled {
   display: none !important;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-  cursor: pointer;
-}
+
 
 ::-moz-focus-inner {
   padding: 0;
@@ -437,7 +426,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+
 }
 
 /* rtl:raw:
@@ -458,7 +447,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+
 }
 
 output {
