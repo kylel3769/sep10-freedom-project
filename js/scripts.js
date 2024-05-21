@@ -33,11 +33,3 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-document.getElementById('toggleButton').addEventListener('click', function() {
-    var aframeContainer = document.getElementById('aframe-container');
-    if (aframeContainer.style.display === 'none') {
-        aframeContainer.style.display = 'block'; // Show the A-Frame container
-    } else {
-        aframeContainer.style.display = 'none'; // Hide the A-Frame container
-    }
-});

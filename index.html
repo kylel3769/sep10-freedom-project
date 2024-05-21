@@ -85,16 +85,7 @@
                     </div>
                 </div>
             </div>
-            <button id="toggleButton">Toggle A-Frame Scene</button>
-            <div id="aframe-container">
-                <a-scene>
-                    <!-- Your A-Frame elements go here -->
-                    <a-box position="0 1.5 -4" rotation="0 45 0" color="#00C0CB" scale="1 1 1"></a-box>
-                    <a-box position="0 1.5 -4" rotation="0 45 0" color="#00aeb8" scale=".9 .9 .9" src=""></a-box>
-                    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-                    <a-sky color="#ECECEC"></a-sky>
-                </a-scene>
-            </div>
+
         <!--    <picture>
                 <source media="(min-width: 900px)" srcset="assets/images/ai_thing.jfif" class="ai">
                 <source media="(min-width: 480px)" srcset="assets/images/my_version_ai.png" class="drawing">
@@ -102,6 +93,19 @@
             </picture>
         -->
         </section>
+        <div class="aframe-container">
+            <a-scene class="aframe-scene">
+            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+            <!-- Sphere -->
+            <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+            <!-- Cylinder -->
+            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <!-- Plane -->
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+            <!-- Sky -->
+            <a-sky color="#ECECEC"></a-sky>
+            </a-scene>
+        </div>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4"><p class="m-0 text-center text-white"> <p>Copyright copy; Your Website 2024*</p></div>
